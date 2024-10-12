@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		529A2BB22CBA82510000DBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529A2BA92CBA82510000DBF4 /* Assets.xcassets */; };
+		529A2BB42CBA82510000DBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A2BAC2CBA82510000DBF4 /* LaunchScreen.storyboard */; };
+		529A2BB62CBA82510000DBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BA82CBA82510000DBF4 /* AppDelegate.swift */; };
+		529A2BB72CBA82510000DBF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */; };
+		529A2BB82CBA82510000DBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BB02CBA82510000DBF4 /* ViewController.swift */; };
+		52B30CBC2CBACF9B00FB5445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B30CBB2CBACF9B00FB5445 /* Main.storyboard */; };
+		52B30CC02CBAD06600FB5445 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 52B30CBF2CBAD06600FB5445 /* SnapKit */; };
+		52EAC8CD2CBC191C006A3607 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAC8CC2CBC191C006A3607 /* MusicController.swift */; };
+		52EAC8CF2CBC19EC006A3607 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAC8CE2CBC19EC006A3607 /* Music.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		52DB7F662CB2EC76006D2791 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,30 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		529A2BA82CBA82510000DBF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		529A2BA92CBA82510000DBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		529A2BAA2CBA82510000DBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529A2BAB2CBA82510000DBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		529A2BB02CBA82510000DBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B30CBB2CBACF9B00FB5445 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		52DB7F4F2CB2EC75006D2791 /* TarasMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarasMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB7F652CB2EC76006D2791 /* TarasMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarasMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB7F6F2CB2EC76006D2791 /* TarasMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarasMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EAC8CC2CBC191C006A3607 /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		52EAC8CE2CBC19EC006A3607 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		52DB7F772CB2EC76006D2791 /* Exceptions for "TarasMusic" folder in "TarasMusic" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 52DB7F4E2CB2EC75006D2791 /* TarasMusic */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		52DB7F512CB2EC75006D2791 /* TarasMusic */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				52DB7F772CB2EC76006D2791 /* Exceptions for "TarasMusic" folder in "TarasMusic" target */,
-			);
-			path = TarasMusic;
-			sourceTree = "<group>";
-		};
 		52DB7F682CB2EC76006D2791 /* TarasMusicTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = TarasMusicTests;
@@ -65,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B30CC02CBAD06600FB5445 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,12 +89,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		529A2BB12CBA82510000DBF4 /* TarasMusic */ = {
+			isa = PBXGroup;
+			children = (
+				529A2BA82CBA82510000DBF4 /* AppDelegate.swift */,
+				529A2BA92CBA82510000DBF4 /* Assets.xcassets */,
+				529A2BAA2CBA82510000DBF4 /* Info.plist */,
+				529A2BAC2CBA82510000DBF4 /* LaunchScreen.storyboard */,
+				529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */,
+				529A2BB02CBA82510000DBF4 /* ViewController.swift */,
+				52EAC8CC2CBC191C006A3607 /* MusicController.swift */,
+				52EAC8CE2CBC19EC006A3607 /* Music.swift */,
+				52B30CBB2CBACF9B00FB5445 /* Main.storyboard */,
+			);
+			path = TarasMusic;
+			sourceTree = "<group>";
+		};
+		52B30CBE2CBAD06600FB5445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52DB7F462CB2EC75006D2791 = {
 			isa = PBXGroup;
 			children = (
-				52DB7F512CB2EC75006D2791 /* TarasMusic */,
+				529A2BB12CBA82510000DBF4 /* TarasMusic */,
 				52DB7F682CB2EC76006D2791 /* TarasMusicTests */,
 				52DB7F722CB2EC76006D2791 /* TarasMusicUITests */,
+				52B30CBE2CBAD06600FB5445 /* Frameworks */,
 				52DB7F502CB2EC75006D2791 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,11 +148,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				52DB7F512CB2EC75006D2791 /* TarasMusic */,
-			);
 			name = TarasMusic;
 			packageProductDependencies = (
+				52B30CBF2CBAD06600FB5445 /* SnapKit */,
 			);
 			productName = TarasMusic;
 			productReference = 52DB7F4F2CB2EC75006D2791 /* TarasMusic.app */;
@@ -207,7 +233,9 @@
 				Base,
 			);
 			mainGroup = 52DB7F462CB2EC75006D2791;
-			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				526FB1E72CBACB9E00353310 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 52DB7F502CB2EC75006D2791 /* Products */;
 			projectDirPath = "";
@@ -225,6 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529A2BB22CBA82510000DBF4 /* Assets.xcassets in Resources */,
+				529A2BB42CBA82510000DBF4 /* LaunchScreen.storyboard in Resources */,
+				52B30CBC2CBACF9B00FB5445 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529A2BB62CBA82510000DBF4 /* AppDelegate.swift in Sources */,
+				52EAC8CD2CBC191C006A3607 /* MusicController.swift in Sources */,
+				52EAC8CF2CBC19EC006A3607 /* Music.swift in Sources */,
+				529A2BB72CBA82510000DBF4 /* SceneDelegate.swift in Sources */,
+				529A2BB82CBA82510000DBF4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +317,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		529A2BAC2CBA82510000DBF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529A2BAB2CBA82510000DBF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		52DB7F792CB2EC76006D2791 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -297,6 +344,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +373,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -569,6 +618,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		526FB1E72CBACB9E00353310 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52B30CBF2CBAD06600FB5445 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 526FB1E72CBACB9E00353310 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52DB7F472CB2EC75006D2791 /* Project object */;
 }
