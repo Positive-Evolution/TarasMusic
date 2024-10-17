@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		529A2BB22CBA82510000DBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529A2BA92CBA82510000DBF4 /* Assets.xcassets */; };
 		529A2BB42CBA82510000DBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A2BAC2CBA82510000DBF4 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		529A2BB62CBA82510000DBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BA82CBA82510000DBF4 /* AppDelegate.swift */; };
 		529A2BB72CBA82510000DBF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */; };
 		529A2BB82CBA82510000DBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BB02CBA82510000DBF4 /* ViewController.swift */; };
@@ -16,6 +17,12 @@
 		52B30CC02CBAD06600FB5445 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 52B30CBF2CBAD06600FB5445 /* SnapKit */; };
 		52EAC8CD2CBC191C006A3607 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAC8CC2CBC191C006A3607 /* MusicController.swift */; };
 		52EAC8CF2CBC19EC006A3607 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EAC8CE2CBC19EC006A3607 /* Music.swift */; };
+=======
+		529A2BB52CBA82510000DBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529A2BAE2CBA82510000DBF4 /* Main.storyboard */; };
+		529A2BB62CBA82510000DBF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BA82CBA82510000DBF4 /* AppDelegate.swift */; };
+		529A2BB72CBA82510000DBF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */; };
+		529A2BB82CBA82510000DBF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529A2BB02CBA82510000DBF4 /* ViewController.swift */; };
+>>>>>>> TarasMusic/main
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +47,15 @@
 		529A2BA92CBA82510000DBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		529A2BAA2CBA82510000DBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		529A2BAB2CBA82510000DBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		529A2BB02CBA82510000DBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52B30CBB2CBACF9B00FB5445 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+=======
+		529A2BAD2CBA82510000DBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		529A2BB02CBA82510000DBF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+>>>>>>> TarasMusic/main
 		52DB7F4F2CB2EC75006D2791 /* TarasMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TarasMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB7F652CB2EC76006D2791 /* TarasMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarasMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB7F6F2CB2EC76006D2791 /* TarasMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TarasMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,15 +109,22 @@
 				529A2BA92CBA82510000DBF4 /* Assets.xcassets */,
 				529A2BAA2CBA82510000DBF4 /* Info.plist */,
 				529A2BAC2CBA82510000DBF4 /* LaunchScreen.storyboard */,
+<<<<<<< HEAD
 				529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */,
 				529A2BB02CBA82510000DBF4 /* ViewController.swift */,
 				52EAC8CC2CBC191C006A3607 /* MusicController.swift */,
 				52EAC8CE2CBC19EC006A3607 /* Music.swift */,
 				52B30CBB2CBACF9B00FB5445 /* Main.storyboard */,
+=======
+				529A2BAE2CBA82510000DBF4 /* Main.storyboard */,
+				529A2BAF2CBA82510000DBF4 /* SceneDelegate.swift */,
+				529A2BB02CBA82510000DBF4 /* ViewController.swift */,
+>>>>>>> TarasMusic/main
 			);
 			path = TarasMusic;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		52B30CBE2CBAD06600FB5445 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +132,8 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> TarasMusic/main
 		52DB7F462CB2EC75006D2791 = {
 			isa = PBXGroup;
 			children = (
@@ -233,10 +255,13 @@
 				Base,
 			);
 			mainGroup = 52DB7F462CB2EC75006D2791;
+<<<<<<< HEAD
 			packageReferences = (
 				526FB1E72CBACB9E00353310 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
+=======
+>>>>>>> TarasMusic/main
 			productRefGroup = 52DB7F502CB2EC75006D2791 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -255,7 +280,11 @@
 			files = (
 				529A2BB22CBA82510000DBF4 /* Assets.xcassets in Resources */,
 				529A2BB42CBA82510000DBF4 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
 				52B30CBC2CBACF9B00FB5445 /* Main.storyboard in Resources */,
+=======
+				529A2BB52CBA82510000DBF4 /* Main.storyboard in Resources */,
+>>>>>>> TarasMusic/main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				529A2BB62CBA82510000DBF4 /* AppDelegate.swift in Sources */,
+<<<<<<< HEAD
 				52EAC8CD2CBC191C006A3607 /* MusicController.swift in Sources */,
 				52EAC8CF2CBC19EC006A3607 /* Music.swift in Sources */,
+=======
+>>>>>>> TarasMusic/main
 				529A2BB72CBA82510000DBF4 /* SceneDelegate.swift in Sources */,
 				529A2BB82CBA82510000DBF4 /* ViewController.swift in Sources */,
 			);
@@ -326,6 +358,17 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		529A2BAE2CBA82510000DBF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529A2BAD2CBA82510000DBF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+>>>>>>> TarasMusic/main
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
