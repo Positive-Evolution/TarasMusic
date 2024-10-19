@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.backgroundColor = UIColor.clear
+        tableView.backgroundColor = UIColor.gray
         return tableView
     }()
     
